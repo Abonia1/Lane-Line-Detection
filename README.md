@@ -62,6 +62,12 @@ Apply this coordinate to lines in black image
  and result will be as follow:note(I have mentioned B with high value and make RG as 0)
  
 ![image](https://drive.google.com/uc?export=view&id=1ba9wTARYmCHSLPo0LPrluW0QD0S5wJBn)
+ 
+ also finally apply lines in real image as follow:
+ 
+ ![image](https://drive.google.com/uc?export=view&id=1c5n6fFGTzKpwmnkZi7IzpycFj0YYu9NM)
+
+
 
 For calcuation and computation about image preprocessing and to play with pixel just visit the link
 

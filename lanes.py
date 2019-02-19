@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def canny(image):
 
-    gray=cv2.cvtColor(lane_image,cv2.COLOR_RGB2GRAY)
+    gray=cv2.cvtColor(image,cv2.COLOR_RGB2GRAY)
     blur=cv2.GaussianBlur(gray,(5,5),0)
     canny=cv2.Canny(blur,50,150)
     return canny
@@ -26,7 +26,7 @@ def region_of_interest(image):
     mask=np.zeros_like(image)
     """to fill polygon with mask"""
     cv2.fillPoly(mask,polygons,255)
-    masked_image=cv2.bitwise_and(canny,mask)
+    masked_image=cv2.bitwise_and(image,mask)
     return masked_image
 
 image=cv2.imread('img.png')
@@ -43,8 +43,10 @@ maxlinegab for line should be contionous and not broken
 """
 lines=cv2.HoughLinesP(cropped_image,2,np.pi/(180),100,np.array([]),minLineLength=40,maxLineGap=5)
 line_image=display_lines(lane_image,lines)
+#apply lines in real image
+combo_image=cv2.addWeighted(lane_image,0.8,line_image,1,1)
 
-cv2.imshow("result",line_image)
+cv2.imshow("result",combo_image)
 cv2.waitKey(0)
 
 # plt.imshow(canny)
