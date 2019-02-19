@@ -54,6 +54,14 @@ line s 2D array with 1 row and 2 cols
 [[824 551 879 609]]
 [[676 389 754 467]]
 
+### Display Lines
+Display line method make image to black 
+Find coordinates of each line 
+Apply this coordinate to lines in black image
+
+ and result will be as follow:note(I have mentioned B with high value and make RG as 0)
+ 
+![image](https://drive.google.com/uc?export=view&id=1ba9wTARYmCHSLPo0LPrluW0QD0S5wJBn)
 
 For calcuation and computation about image preprocessing and to play with pixel just visit the link
 

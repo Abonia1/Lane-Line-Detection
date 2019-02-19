@@ -10,10 +10,15 @@ def canny(image):
     return canny
 
 def display_lines(image,lines):
-    lane_image=np.zeros_like(image)
+    line_image=np.zeros_like(image)
     if lines is not None:
         for line in lines:
-            print(line)
+            #print(line)
+            #unpack array
+            x1,y1,x2,y2=line.reshape(4)
+            """(x1,y1),(x2,y2) coordinate of line-color of line (255,0,0)-thickness of line 10"""
+            cv2.line(line_image,(x1,y1),(x2,y2),(255,0,0),10)
+    return line_image
 
 def region_of_interest(image):
     height=image.shape[0]
@@ -39,7 +44,7 @@ maxlinegab for line should be contionous and not broken
 lines=cv2.HoughLinesP(cropped_image,2,np.pi/(180),100,np.array([]),minLineLength=40,maxLineGap=5)
 line_image=display_lines(lane_image,lines)
 
-cv2.imshow("result",lines)
+cv2.imshow("result",line_image)
 cv2.waitKey(0)
 
 # plt.imshow(canny)
