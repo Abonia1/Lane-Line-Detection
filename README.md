@@ -33,6 +33,27 @@ BitwiseAnd is calculated with bit value of each pixel value to get the cropped i
 
 ![image](https://drive.google.com/uc?export=view&id=1kgbHIrxr_oqmcPWGNPsgVh9F3lrTTaiv)
 
+### Hough Transform
+
+Maximum number of intersection inside bin
+
+
+### Line computation
+line s 2D array with 1 row and 2 cols
+[[704 418 927 641]]
+[[704 426 791 516]]
+[[320 703 445 494]]
+[[585 301 663 381]]
+[[630 341 670 383]]
+[[794 520 861 591]]
+[[659 371 704 416]]
+[[870 599 939 672]]
+[[767 493 807 534]]
+[[423 509 454 461]]
+[[940 653 991 702]]
+[[824 551 879 609]]
+[[676 389 754 467]]
+
 
 For calcuation and computation about image preprocessing and to play with pixel just visit the link
 
