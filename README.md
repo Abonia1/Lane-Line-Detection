@@ -70,12 +70,19 @@ Apply this coordinate to lines in black image
  
 ###  Averaging  the lines
 
-Averagine line to find a smooth line for clear detection ad result as below:
+Averaged line to find a smooth line for clear detection and result as below:
 
 ![image](https://drive.google.com/uc?export=view&id=1g_YfiFAr5feZWLIM0Fjk2s4xEfyYd4C9)
 
 
+Average lineintegration with combo image and result as below:
 
+![image](https://drive.google.com/uc?export=view&id=13XY6ZMT134wwtW9ZJ3PjV9HldlJemslH)
+
+
+### Adding input as video frame 
+
+The video file to be feed is test.mp4
 
 For calcuation and computation about image preprocessing and to play with pixel just visit the link
 
