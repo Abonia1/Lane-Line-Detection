@@ -15,6 +15,13 @@ Sudden change in threshold of the image is called edge so here with tis step edg
 
 ![image](https://drive.google.com/uc?export=view&id=15AVVc7RlKTNK45cwS4OA0ErrCK_DTusq)
 
+
+### Matplot 
+To calculate and find the region of interest using x and y coordinates
+
+![image](https://drive.google.com/uc?export=view&id=1YkR9b98xVsuHtuwZeEtwjpIElh8ZygRv)
+
+
 For calcuation and computation about image preprocessing and to play with pixel just visit the link
 
 https://github.com/Abonia1/ComputerVision-AI/wiki
