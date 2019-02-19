@@ -15,14 +15,15 @@ def region_of_interest(image):
     mask=np.zeros_like(image)
     """to fill polygon with mask"""
     cv2.fillPoly(mask,polygons,255)
-    return mask
+    masked_image=cv2.bitwise_and(image,mask)
+    return masked_image
 
 image=cv2.imread('img.png')
 lane_image=np.copy(image)
 canny=canny(lane_image)
+cropped_image=region_of_interest(canny)
 
-
-cv2.imshow("result",region_of_interest(canny))
+cv2.imshow("result",cropped_image)
 cv2.waitKey(0)
 
 # plt.imshow(canny)
