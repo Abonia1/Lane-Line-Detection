@@ -66,6 +66,14 @@ Apply this coordinate to lines in black image
  also finally apply lines in real image as follow:
  
  ![image](https://drive.google.com/uc?export=view&id=1c5n6fFGTzKpwmnkZi7IzpycFj0YYu9NM)
+ 
+ 
+###  Averaging  the lines
+
+Averagine line to find a smooth line for clear detection ad result as below:
+
+![image](https://drive.google.com/uc?export=view&id=1g_YfiFAr5feZWLIM0Fjk2s4xEfyYd4C9)
+
 
 
 
