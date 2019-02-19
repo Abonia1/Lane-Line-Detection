@@ -21,6 +21,14 @@ To calculate and find the region of interest using x and y coordinates
 
 ![image](https://drive.google.com/uc?export=view&id=1YkR9b98xVsuHtuwZeEtwjpIElh8ZygRv)
 
+### Region of interest
+
+once we found ROI then we must mask it with fillpoly function and result will be as below:
+
+![image](https://drive.google.com/uc?export=view&id=1CrO3XBOO4b8AFf30WsgDv5PM8HZKcFyU)
+
+
+
 
 For calcuation and computation about image preprocessing and to play with pixel just visit the link
 
