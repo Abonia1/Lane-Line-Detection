@@ -1,6 +1,9 @@
 ### Lane-Line-Detection
 
-### Gray the image:
+### Image File
+Initial image file is available [here](https://github.com/Abonia1/Lane-Line-Detection/blob/master/img.jpg)
+
+### Gray the image
 Need to change rgb to gray scale and result will be as below:
 
 ![image](https://drive.google.com/uc?export=view&id=1ROZzZ8uJ-XlI27HMeeOQv521PskbtPE9)
